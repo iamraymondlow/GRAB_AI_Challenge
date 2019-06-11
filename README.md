@@ -19,21 +19,15 @@ description of the dataset fields are found below:
                                    similar to encode and decode geohash into latitude and longitude
                                    and vice versa.
     </li>
-</ul>
-<ul>
     <li>
         <strong>day</strong>: Day, where the value indicates the sequential order and 
                               not a particular day of the month.
     </li>
-</ul>
-<ul>
     <li>
         <strong>timestamp</strong>: Start time of 15-minute intervals, in the following
                                     format: <hour>:<minute>, where hour ranges from 0 to 23 and 
                                     minute is either one of (0, 15, 30, 45).
     </li>
-</ul>
-<ul>
     <li>
         <strong>demand</strong>: Aggregated demand normalised to be in the range [0,1].
     </li>
@@ -43,7 +37,38 @@ description of the dataset fields are found below:
 Please ensure that the following Python packages are installed on your computer 
 before executing the code in the Jupyter notebooks: 
 
-<ul><li>pandas, Geohash, numpy, matplotlib.pyplot, seaborn, tqdm, random, and pickle.</li></ul>
+<ul>
+    <li>pandas</li>
+    <li>Geohash</li>
+    <li>numpy</li>
+    <li>matplotlib.pyplot</li>
+    <li>seaborn</li>
+    <li>tensorflow</li>
+    <li>tqdm</li>
+    <li>random</li>
+    <li>pickle</li>
+</ul>
+
+<h2>Training the model</h2>
+The steps to training the model are as follows:
+<ol>
+    <li>
+        Paste the training data into the same directory as the model_train.ipynb file,
+        and ensure that it has the following file name: "training.csv"
+    </li>
+    <li>
+        Open the model_train.ipynb file.
+    </li>
+    <li>
+        Click on the "Kernel" tab on the top navigation bar and select "Restart 
+        and Run All".
+    </li>
+    <li>
+        At the end of the training process, the trained models will be stored
+        in a separate folder named "models". Several pickle files will also
+        be created to ensure data persistance.
+    </li>
+</ol>
 
 
 
