@@ -10,6 +10,7 @@ intervals. The dataset spans over a two month period. A brief
 description of the dataset fields are found below:
 
 <ul>
+    <li>
     <strong>geohash6</strong>: Geohash is a public domain geocoding system which 
                                encodes a geographic location into a short string of letters 
                                and digits with arbitrary precision. You may use the Python 
@@ -17,6 +18,7 @@ description of the dataset fields are found below:
                                Geohash library https://github.com/kungfoo/geohash-java or 
                                similar to encode and decode geohash into latitude and longitude
                                and vice versa.
+    </li>
 </ul>
 <ul>
     <strong>day</strong>: Day, where the value indicates the sequential order and 
