@@ -54,7 +54,7 @@ The steps to training the model are as follows:
 <ol>
     <li>
         Paste the training data into the same directory as the model_train.ipynb file,
-        and ensure that it has the following file name: "training.csv"
+        and ensure that it has the following file name: "training.csv".
     </li>
     <li>
         Open the model_train.ipynb file.
@@ -67,6 +67,31 @@ The steps to training the model are as follows:
         At the end of the training process, the trained models will be stored
         in a separate folder named "models". Several pickle files will also
         be created to ensure data persistance.
+    </li>
+</ol>
+
+<h2>Testing the model</h2>
+The steps to testing the model are as follows:
+<ol>
+    <li>
+        Click on the following Dropbox <a href=https://www.dropbox.com/s/d0b9zhdfrwisjmh/GRAB_AI_Challenge.zip?dl=0>link</a> 
+        to download a zipped folder containing all of the pre-trained models, 
+        pickle files and source code.
+    </li>
+    <li>
+        Unzip the folder and paste the test data into the same directory as the 
+        model_test.ipynb file.
+    </li>
+    <li>
+        Open the model_test.ipynb file and replace "validation.csv" with the file
+        name of the test data, under the "Import test data" section.
+    </li>
+    <li>
+        Click on the "Kernel" tab on the top navigation bar and select "Restart 
+        and Run All".
+    </li>
+    <li>
+        Wait for the evaluation to be completed and review the test results.
     </li>
 </ol>
 
