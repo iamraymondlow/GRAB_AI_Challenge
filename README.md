@@ -1,6 +1,6 @@
 <h1> GRAB AI for SEA Challenge (Traffic Management) </h1>
 
-This section contains the instruction needed to properly run the code
+This section contains the instructions needed to properly run the code
 written for the GRAB AI for SEA Challenge 2019 (Traffic Management).
 
 <h2> Data Description </h2>
@@ -38,33 +38,33 @@ Please ensure that the following Python packages are installed on your computer
 before executing the code in the Jupyter notebooks: 
 
 <ul>
-    <li>pandas</li>
-    <li>Geohash</li>
-    <li>numpy</li>
-    <li>matplotlib.pyplot</li>
-    <li>seaborn</li>
-    <li>tensorflow</li>
-    <li>tqdm</li>
-    <li>random</li>
-    <li>pickle</li>
+    <li><strong>pandas</strong></li>
+    <li><strong>Geohash</strong></li>
+    <li><strong>numpy</strong></li>
+    <li><strong>matplotlib.pyplot</strong></li>
+    <li><strong>seaborn</strong></li>
+    <li><strong>tensorflow</strong></li>
+    <li><strong>tqdm</strong></li>
+    <li><strong>random</strong></li>
+    <li><strong>pickle</strong></li>
 </ul>
 
 <h2>Training the model</h2>
 <ol>
     <li>
-        Paste the training data into the same directory as the model_train.ipynb file,
-        and ensure that it has the following file name: "training.csv".
+        Paste the training data into the same directory as the <strong>model_train.ipynb</strong> file,
+        and ensure that it has the following file name: <strong>training.csv</strong>.
     </li>
     <li>
-        Open the model_train.ipynb file.
+        Open the <strong>model_train.ipynb</strong> file.
     </li>
     <li>
-        Click on the "Kernel" tab on the top navigation bar and select "Restart 
-        and Run All".
+        Click on the <strong>Kernel</strong> tab on the top navigation bar and select <strong>Restart 
+        and Run All</strong>.
     </li>
     <li>
         At the end of the training process, the trained models will be stored
-        in a separate folder named "models". Several pickle files will also
+        in a separate folder named <strong>models</strong>. Several pickle files will also
         be created to ensure data persistance.
     </li>
 </ol>
@@ -72,22 +72,22 @@ before executing the code in the Jupyter notebooks:
 <h2>Testing the model</h2>
 <ol>
     <li>
-        Click on the following Dropbox link: <a href=https://www.dropbox.com/s/d0b9zhdfrwisjmh/GRAB_AI_Challenge.zip?dl=0>
+        Click on the following dropbox link: <a href=https://www.dropbox.com/s/d0b9zhdfrwisjmh/GRAB_AI_Challenge.zip?dl=0>
         https://www.dropbox.com/s/d0b9zhdfrwisjmh/GRAB_AI_Challenge.zip?dl=0</a> 
         to download a zipped folder containing all of the pre-trained models, 
         pickle files and source code.
     </li>
     <li>
         Unzip the folder and paste the test data into the same directory as the 
-        model_test.ipynb file.
+        <strong>model_test.ipynb</strong> file.
     </li>
     <li>
-        Open the model_test.ipynb file and replace "validation.csv" with the file
-        name of the test data, under the "Import test data" section.
+        Open the <strong>model_test.ipynb</strong> file and replace <strong>validation.csv</strong> with the file
+        name of the test data, under the <strong>Import test data</strong> section.
     </li>
     <li>
-        Click on the "Kernel" tab on the top navigation bar and select "Restart 
-        and Run All".
+        Click on the <strong>Kernel</strong> tab on the top navigation bar and select <strong>Restart 
+        and Run All</strong>.
     </li>
     <li>
         Wait for the evaluation to be completed and review the test results.
