@@ -1,6 +1,6 @@
 <h1> GRAB AI for SEA Challenge (Traffic Management) </h1>
 
-This page contains the instruction needed to properly run the code
+This section contains the instruction needed to properly run the code
 written for the GRAB AI for SEA Challenge 2019 (Traffic Management).
 
 <h2> Data Description </h2>
@@ -25,7 +25,7 @@ description of the dataset fields are found below:
     </li>
     <li>
         <strong>timestamp</strong>: Start time of 15-minute intervals, in the following
-                                    format: <hour>:<minute>, where hour ranges from 0 to 23 and 
+                                    format: hour:minute, where hour ranges from 0 to 23 and 
                                     minute is either one of (0, 15, 30, 45).
     </li>
     <li>
@@ -50,7 +50,6 @@ before executing the code in the Jupyter notebooks:
 </ul>
 
 <h2>Training the model</h2>
-The steps to training the model are as follows:
 <ol>
     <li>
         Paste the training data into the same directory as the model_train.ipynb file,
@@ -71,10 +70,10 @@ The steps to training the model are as follows:
 </ol>
 
 <h2>Testing the model</h2>
-The steps to testing the model are as follows:
 <ol>
     <li>
-        Click on the following Dropbox <a href=https://www.dropbox.com/s/d0b9zhdfrwisjmh/GRAB_AI_Challenge.zip?dl=0>link</a> 
+        Click on the following Dropbox link: <a href=https://www.dropbox.com/s/d0b9zhdfrwisjmh/GRAB_AI_Challenge.zip?dl=0>
+        https://www.dropbox.com/s/d0b9zhdfrwisjmh/GRAB_AI_Challenge.zip?dl=0</a> 
         to download a zipped folder containing all of the pre-trained models, 
         pickle files and source code.
     </li>
