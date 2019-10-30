@@ -72,7 +72,7 @@ before executing the code in the Jupyter notebooks:
 <h2>Testing the model</h2>
 <ol>
     <li>
-        Drop me an e-mail at the following address: <a href=iamraymondlow@gmail.com>
+        Drop me an e-mail at the following address: <a href=mailto:iamraymondlow@gmail.com>
         iamraymondlow@gmail.com</a>  and I will send you a zipped folder containing all of the pre-trained models, 
         pickle files and source code.
     </li>
