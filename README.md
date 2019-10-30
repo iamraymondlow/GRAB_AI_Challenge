@@ -72,9 +72,8 @@ before executing the code in the Jupyter notebooks:
 <h2>Testing the model</h2>
 <ol>
     <li>
-        Click on the following dropbox link: <a href=https://www.dropbox.com/s/d0b9zhdfrwisjmh/GRAB_AI_Challenge.zip?dl=0>
-        https://www.dropbox.com/s/d0b9zhdfrwisjmh/GRAB_AI_Challenge.zip?dl=0</a> 
-        to download a zipped folder containing all of the pre-trained models, 
+        Drop me an e-mail at the following address: <a href=iamraymondlow@gmail.com>
+        iamraymondlow@gmail.com</a>  and I will send you a zipped folder containing all of the pre-trained models, 
         pickle files and source code.
     </li>
     <li>
